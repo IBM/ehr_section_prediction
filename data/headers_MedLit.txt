@@ -1,0 +1,154 @@
+Chief Complaint|Chief complaint     |N
+Chief Complaint|Reason for Admission    |N
+Chief Complaint|CC  |Y
+Chief Complaint|signs and symptoms  |N
+Chief Complaint|SUBJ  |Y
+Past Medical History|PROB  |Y
+History of Present Illness|Present Illness  |N
+History of Present Illness|History of Present Illness  |N
+History of Present Illness|HPI  |Y
+History of Present Illness|History of Current Illness  |N
+History of Present Illness|History of Illness  |N
+Review of Systems|Review of systems|N
+Review of Systems|systems enquiry  |N
+Review of Systems|systems review  |N
+Review of Systems|ROS  |Y
+Review of Systems|Constitutional symptoms  |N
+Review of Systems|Eyes  |N
+Review of Systems|Ears, nose, mouth, and throat  |N
+Review of Systems|ENT|Y
+Review of Systems|Cardiovascular  |N
+Review of Systems|Respiratory  |N
+Review of Systems|Gastrointestinal  |N
+Review of Systems|Genitourinary  |N
+Review of Systems|Musculoskeletal  |N
+Review of Systems|Integumentary   |N
+Review of Systems|Breast  |N
+Review of Systems|Neurological  |N
+Review of Systems|Psychiatric  |N
+Review of Systems|Endocrine  |N
+Review of Systems|Hematologic  |N
+Review of Systems|lymphatic  |N
+Review of Systems|immunologic  |N
+Assessment and Plan|Impression  |N
+Findings|Findings  |N
+Findings|Procedural Findings  |N
+Findings|Indications  |N
+Findings|DIAGFIND  |Y
+Findings|Diagnostic Findings|N
+# Assessment and Plan|Diagnose  |N
+# Assessment and Plan|Diagnoses  |N
+# Assessment and Plan|   Diagnosis  |N
+# Assessment and Plan|Admission Diagnoses  |N
+# Assessment and Plan|Discharge Diagnoses  |N
+# Assessment and Plan|Discharge Disposition  |N
+# Assessment and Plan|Other Diagnoses  |N
+# Assessment and Plan|Pre-Operative Diagnoses  |N
+# Assessment and Plan|Post-Operative Diagnoses  |N
+# Assessment and Plan|Admission Diagnosis  |N
+# Assessment and Plan|Discharge Diagnosis  |N
+# Assessment and Plan|Other Diagnosis  |N
+# Assessment and Plan|Pre-Operative Diagnosis  |N
+# Assessment and Plan|Post-Operative Diagnosis  |N
+Past Medical History|Medical History  |N
+Past Medical History|Past medical history  |N
+Past Medical History|PMH  |Y
+Procedures|past surgical history  |N
+Past Medical History|PSH  |Y
+Past Medical History|past medical history and past surgical history  |N
+Past Medical History|P/P  |Y
+Past Medical History|CONDITION BEFORE ADMISSION  |N
+Past Medical History|Clinical History  |N
+Past Medical History|Gynecological History  |N
+Family History|Family History  |N
+Family History|Family medical history  |N
+Family History|FHX  |Y
+Family History|Family Histories  |N
+Family History|Parent medical history  |N
+Family History|Sibling medical history  |N
+Family History|Child medical history  |N
+Health Maintenance|Health Maintenance  |N
+Health Maintenance|health care maintenance  |N
+Personal and Social history|Personal and Social History  |N
+Personal and Social history|Personal Histories  |N
+Personal and Social history|Social History  |N
+Personal and Social history|SHX  |Y
+Personal and Social history|SOC  |Y
+Personal and Social history|Substance use history  |N
+Medications|Medications  |N
+Medications|medication  |N
+Medications|MEDS  |Y
+Medications|MED  |Y
+Medications|Discharge Medications  |N
+Medications|Prescription History|N
+Allergies|Allergies  |N
+# Allergies|ALL  |Y
+Allergies|Allergies and adverse reactions  |N
+Allergies|Allergic|N
+Allergies|Allergen|N
+# Allergies|Contraindication|N
+# Allergies|Potential Harm|N
+# Allergies|Adverse Effects|N
+Procedures|Procedures  |N
+Procedures|PROC  |Y
+Procedures|Procedure Descriptions  |N
+Procedures|Procedures Performed  |N
+Procedures|HOSPITAL COURSE  |N
+Procedures|Course of Care  |N
+Procedures|Anesthesia  |N
+Procedures|Diagnostic Studies  |N
+Procedures|studies  |N
+Procedures|study  |N
+Procedures|interventions and practices considered|N
+Examination|Examination  |N
+Examination|Physical examination  |N
+Examination|PE  |Y
+Examination|Physical Exam on Discharge  |N
+Examination|Physical  |N
+Examination|Physical Examinations  |N
+Examination|Physical Exam  |N
+Examination|Vital signs  |N
+Examination|Vital sign  |N
+Examination|VS  |Y
+Examination|General examination  |N
+Examination|Dermatologic examination  |N
+Examination|Lymph nodes/heme examination  |N
+Examination|HEENT examination  |N
+Examination|Cardiovascular examination  |N
+Examination|Gastrointestinal examination  |N
+Examination|Chest examination  |N
+Examination|Genitourinary examination  |N
+Examination|Neurological examination  |N
+Examination|Psychological examination  |N
+Examination|Musculoskeletal examination  |N
+Examination|Extremity examination  |Nd
+Examination|Exam  |N
+Examination|EXAM DETAILS  |N
+Examination|Comparison  |N
+Examination|Contrast  |N
+Examination|OBJ  |Y
+Examination|inspection|N
+Examination|palpation|N
+Examination|auscultation|N
+Examination|percussion|N
+Laboratory Tests|Laboratory Tests  |N
+Laboratory Tests|LABS  |Y
+Findings|Laboratory imaging and pathology results  |N
+Findings|Laboratory results  |N
+Findings|imaging results  |N
+Findings|pathology results  |N
+Laboratory Tests|Laboratory Examinations  |N
+Findings|Radiology Reports  |N
+Laboratory Tests|Intraoperative Pathology Exam  |N
+Laboratory Tests|Microscopic Exam  |N
+Laboratory Tests|Pathologic Specimens  |N
+Assessment and Plan|Assessment and Plan  |N
+Assessment and Plan|Analysis assessment and plan  |N
+Assessment and Plan|A/P  |Y
+Assessment and Plan|AP  |Y
+Assessment and Plan|Assessment  |N
+#Assessment and Plan|Plan  |N
+#Assessment and Plan|Consultation  |N
+#Assessment and Plan|Recommendations  |N
+Assessment and Plan|DISCHARGE INSTRUCTIONS  |N
+Assessment and Plan|Follow up  |N
