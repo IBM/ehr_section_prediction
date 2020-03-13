@@ -3,6 +3,8 @@
 
 This repository can be used to generate the data and run the experiments described in ["Leveraging Medical Literature for Section Prediction in Electronic Health Records"](https://www.aclweb.org/anthology/D19-1492/) Rosenthal et al. (EMNLP 2019) on Wikipedia and i2b2 data. Results on these experiments using Wikipedia only can be found in supplemental material. 
 
+Please send any questions/concerns to Sara Rosenthal at sjrosenthal@us.ibm.com
+
 ### Installation
 
 **Prerequisites**
