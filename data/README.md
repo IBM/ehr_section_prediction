@@ -1,6 +1,7 @@
 # EHR Section Prediction Data
 
-The following folder contains the data and vocabulary for the Medical Literature data from Wikipedia.
+The following folder contains the data and vocabulary for the Medical Literature data from Wikipedia as described in 
+"Leveraging Medical Literature for Section Prediction in Electronic Health Records" Rosenthal et al. (EMNLP 2019) https://www.aclweb.org/anthology/D19-1492/
 
 This data is licensed under the Wikipedia CC-BY-SA license. For more information please visit: https://creativecommons.org/licenses/by-sa/3.0/
 
