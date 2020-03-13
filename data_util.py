@@ -623,6 +623,22 @@ class DataUtil:
                     return None, passage
         return None
 
+    # print some examples to see the format
+    def print_examples(self):
+        # Example (add to github) set [4] to be WikipediaMedical
+        # 0 = {str} '4690.0'
+        # 1 =  'in an acute context hypoxemia can cause symptoms such as those in respiratory distress'
+        # 2 =  'Chief Complaint'
+        # 3 = 'signs and symptoms'
+        # 4 = 'WikipediaMedical'
+        # 5 = '2'
+
+        print("FORMAT: doc_id.paragraph_num, text, labels, header, source, paragraph line in source")
+        print(self.textbook_train_data[0])
+        print(self.textbook_dev_data[0])
+
+        for i in range(20):
+            print(self.textbook_train_data[i])
 
 def main():
     parser = DataUtilArgParser()
@@ -631,8 +647,12 @@ def main():
     if args.vocab_dir == None:
         args.vocab_dir == args.output_dir + "/vocab/"
 
-    helper = DataUtil(data_dir=args.output_dir,
-                      vocab_dir=args.vocab_dir, split_by_sentence=not args.split_by_section)
+    if args.load_pkl:
+        helper = DataUtil(data_dir=args.ref_data_dir,
+                          vocab_dir=args.vocab_dir, split_by_sentence=not args.split_by_section)
+    else:
+        helper = DataUtil(data_dir=args.output_dir,
+                          vocab_dir=args.vocab_dir, split_by_sentence=not args.split_by_section)
 
     print("Datasets: " + str(args.data_set))
 
@@ -643,7 +663,10 @@ def main():
         for ds in textbook_data_sets:
             if ds is "None":
                 continue
-            helper.load_textbook_train_dev_data(args.ref_data_dir + '/medlit/train/' + ds,
+            if args.load_pkl:
+                helper.load_split_data()
+            else:
+                helper.load_textbook_train_dev_data(args.ref_data_dir + '/medlit/train/' + ds,
                                                 args.ref_data_dir + '/medlit/dev/' + ds)
             print('medlit training data stats:')
             _, counter_string = helper.get_category_counts(helper.textbook_train_data)
@@ -683,7 +706,11 @@ def main():
 
     print('finished')
 
-    helper.build_vocab(helper.textbook_train_data, pretrain=False)
+    if args.load_pkl:
+        # here lets clean up and just pring some examples so data can be seen...
+        helper.print_examples()
+    else:
+        helper.build_vocab(helper.textbook_train_data, pretrain=False)
 
 
 if __name__ == '__main__':
